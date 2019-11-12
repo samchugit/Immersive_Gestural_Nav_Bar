@@ -1,7 +1,20 @@
-# Magisk Installer
+# Immersive Gestural Navigation Bar for Android 10
 
-**Update `README.md` if you want to submit your module to the online repo!**
+This is a simple Magisk module enables immersive gestural navigation bar for Android 10.
 
-For more information about how to use this module installer, please refer to [documentations](https://topjohnwu.github.io/Magisk/guides.html)
+## Requirements
+- Android 10 only
+- Magisk 18+
 
-If you are not familiar with the Markdown syntax, you can start by experimenting on GitHub's online Markdown editor, which will let you preview before publishing. If you need more help, the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) will be handy.
+## Installation
+1. Flash this module.
+2. Reboot.
+3. Enjoy immersive gestural navbar!
+
+## Links
+- [GitHub](https://github.com/samchugit/Immersive_Gestural_Nav_Bar)
+- [Telegram](https://t.me/samuel_chu)
+
+## Changelog
+### v1.0
+- initial release

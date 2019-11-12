@@ -122,9 +122,9 @@ REPLACE="
 # Set what you want to display when installing your module
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
-  ui_print "*******************************"
+  ui_print "******************************************"
+  ui_print "     Immersive Gestural Navigation Bar    "
+  ui_print "******************************************"
 }
 
 # Copy/extract your module files into $MODPATH in on_install.
@@ -132,6 +132,12 @@ print_modname() {
 on_install() {
   # The following is the default implementation: extract $ZIPFILE/system to $MODPATH
   # Extend/change the logic to whatever you want
+
+  # Don't install on API levels other than 29
+  if [ ! $API -eq "29" ]; then
+    abort "This module is for Android 10 only!"
+  fi
+
   ui_print "- Extracting module files"
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
 }

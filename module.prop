@@ -1,6 +1,6 @@
-id=template
-name=Template Module
-version=v1
+id=HideGesBar[Q]
+name=Immersive Gestural Navigation Bar (Q)
+version=v1.0
 versionCode=1
-author=topjohnwu
-description=A short description
+author=Sam Chu
+description=Enable immersive gestural navigation bar for Android 10.
