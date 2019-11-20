@@ -2,6 +2,15 @@
 
 This is a simple Magisk module enables immersive gestural navigation bar for Android 10. Many apps are not compatibale with gestural navbar, leaving a small black space at the bottom. The module will set the height of gestural navbar to 0. So unused space will be utilized.
 
+## Screenshots
+
+**Before Install:**
+![Before Install](./Screenshots/Screenshot_20191120-105629.png)
+
+**After Install:**
+![After Install](./Screenshots/Screenshot_20191120-105458.png)
+
+
 ## Requirements
 - Android 10 only
 - Magisk 18+
