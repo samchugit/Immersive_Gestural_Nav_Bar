@@ -1,8 +1,10 @@
 # Immersive Gestural Navigation Bar for Android 10
 
-**Note:** Not compatible with OnePlus devices. And I'm working on it.
+**Note:** Not compatible with OnePlus devices.
 
 This is a simple Magisk module enables immersive gestural navigation bar for Android 10. Many apps are not compatibale with gestural navbar, leaving a small black space at the bottom. The module will set the height of gestural navbar to 0. So unused space will be utilized.
+
+If you want to kill the pill(make the nav bar invisible), you should try [Fullscreen Gesture (Q)](https://github.com/Magisk-Modules-Repo/HideNavBar).
 
 ## Screenshots
 
